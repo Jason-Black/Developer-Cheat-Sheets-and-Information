@@ -2,6 +2,13 @@
 
 Welcome to the Cheat Sheets Repository! This repository is a collection of cheat sheets for various programming languages, tools, and technologies. Whether you're a beginner or an experienced developer, these cheat sheets are designed to help you quickly reference essential information and improve your productivity.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Available Cheat Sheets](#available-cheat-sheets)
+- [Contributing](#contributing)
+  - [Adding a New Cheat Sheet](#adding-a-new-cheat-sheet)
+- [License](#license)
 
 ## Introduction
 
@@ -9,9 +16,22 @@ This repository aims to provide concise and easy-to-use cheat sheets for develop
 
 ## Available Cheat Sheets
 
+Here are the available cheat sheets:
 
-###Contributing
+- [Markdown Cheat Sheet](cheatsheets/markdown_cheat_sheet.md)
+- [HTML and CSS in Markdown Cheat Sheet](cheatsheets/html_css_in_markdown_cheat_sheet.md)
+
+Feel free to browse and use these cheat sheets to boost your productivity!
+
+## Contributing
+
 We welcome contributions from the community! If you have a cheat sheet that you'd like to add or improvements to existing ones, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Commit your changes to your branch.
+4. Push your changes to your fork.
+5. Open a pull request with a description of your changes.
 
 ### Adding a New Cheat Sheet
 
