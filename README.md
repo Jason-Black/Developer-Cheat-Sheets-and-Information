@@ -18,8 +18,8 @@ This repository aims to provide concise and easy-to-use cheat sheets for develop
 
 Here are the available cheat sheets:
 
-- [Markdown Cheat Sheet](cheatsheets/markdown_cheat_sheet.md)
-- [HTML and CSS in Markdown Cheat Sheet](cheatsheets/html_css_in_markdown_cheat_sheet.md)
+- [Markdown Cheat Sheet](Markdown-CheatSheet.md)
+- [HTML and CSS in Markdown Cheat Sheet](Markdown-CheatSheet.md)
 
 Feel free to browse and use these cheat sheets to boost your productivity!
 
