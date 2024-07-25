@@ -23,6 +23,7 @@ Here are the available cheat sheets:
 - [TailwindCSS](tailwind.md)
 - [Flexbox and Grid](flexbox-grid.md)
 - [HTML5](html5.md)
+- [Reuseable Code](commoncode.md)
 
 Feel free to browse and use these cheat sheets to boost your productivity!
 
