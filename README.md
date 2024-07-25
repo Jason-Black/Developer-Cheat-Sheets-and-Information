@@ -21,6 +21,7 @@ Here are the available cheat sheets:
 - [HTML and CSS in Markdown Cheat Sheet](Markdown-CheatSheet.md)
 - [GSAP](cheatsheets/GSAP.md)
 - [TailwindCSS](tailwind.md)
+- [Flexbox and Grid](flexbox-grid.md)
 
 Feel free to browse and use these cheat sheets to boost your productivity!
 
