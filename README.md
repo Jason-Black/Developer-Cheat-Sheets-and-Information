@@ -44,4 +44,4 @@ To add a new cheat sheet, please follow this structure:
 
 ## License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This repository is licensed under the MIT License
