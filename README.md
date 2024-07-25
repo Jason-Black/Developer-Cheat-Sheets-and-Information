@@ -8,7 +8,6 @@ Welcome to the Cheat Sheets Repository! This repository is a collection of cheat
 - [Available Cheat Sheets](#available-cheat-sheets)
 - [Contributing](#contributing)
   - [Adding a New Cheat Sheet](#adding-a-new-cheat-sheet)
-- [License](#license)
 
 ## Introduction
 
@@ -20,7 +19,7 @@ Here are the available cheat sheets:
 
 - [Markdown Cheat Sheet](Markdown-CheatSheet.md)
 - [HTML and CSS in Markdown Cheat Sheet](Markdown-CheatSheet.md)
-- [GSAP](GSAP.md)
+- [GSAP](cheatsheets/GSAP.md)
 - [TailwindCSS](tailwind.md)
 
 Feel free to browse and use these cheat sheets to boost your productivity!
