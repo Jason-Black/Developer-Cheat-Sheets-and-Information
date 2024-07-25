@@ -22,6 +22,7 @@ Here are the available cheat sheets:
 - [GSAP](cheatsheets/GSAP.md)
 - [TailwindCSS](tailwind.md)
 - [Flexbox and Grid](flexbox-grid.md)
+- [HTML5](html5.md)
 
 Feel free to browse and use these cheat sheets to boost your productivity!
 
