@@ -21,6 +21,7 @@ Here are the available cheat sheets:
 - [Markdown Cheat Sheet](Markdown-CheatSheet.md)
 - [HTML and CSS in Markdown Cheat Sheet](Markdown-CheatSheet.md)
 - [GSAP](GSAP.md)
+- [TailwindCSS](tailwind.md)
 
 Feel free to browse and use these cheat sheets to boost your productivity!
 
