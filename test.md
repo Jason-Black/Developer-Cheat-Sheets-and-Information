@@ -27,3 +27,15 @@
     <td style="text-align:right">Row 2, Cell 3</td>
   </tr>
 </table>
+
+
+# Custom Buttons
+
+Click the button below to learn more:
+
+<p align="center">
+  <a href="https://www.example.com" style="display: inline-block; background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px;">
+    Learn More
+  </a>
+</p>
+
