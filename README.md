@@ -18,6 +18,7 @@ This repository aims to provide concise and easy-to-use cheat sheets for develop
 Here are the available cheat sheets:
 
 - [Markdown Cheat Sheet](Markdown-CheatSheet.md)
+- [Markdown Cheat Sheet](Markdown-CheatSheet.md)
 - [HTML and CSS in Markdown Cheat Sheet](Markdown-CheatSheet.md)
 - [GSAP](cheatsheets/GSAP.md)
 - [TailwindCSS](tailwind.md)
