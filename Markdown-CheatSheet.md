@@ -1,5 +1,8 @@
 # Markdown Cheat Sheet
 
+> More info found here https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+
 | Feature            | Syntax Example                                                     | Description                              |
 |--------------------|--------------------------------------------------------------------|------------------------------------------|
 | Headings           | `# H1`, `## H2`, `### H3`                                          | Create headings                          |
