@@ -176,10 +176,11 @@ The `text-balance` utility in Tailwind CSS ensures that text is evenly distribut
 ```
 
 text-balance: Ensures that the text is evenly distributed across lines.
-Responsive Text Sizes:
-- text-4xl for small screens.
-- md:text-5xl for medium screens.
-- lg:text-6xl for large screens.
+**Responsive Text Sizes:**
+- **`text-4xl`** for small screens.
+- **`md:text-5xl`** for medium screens.
+- **`lg:text-6xl`** for large screens.
+
 leading-tight: Reduces line height for a more compact look.
 text-center md:text-left: Centers text on small screens, left-aligns it on medium and larger screens.
 
@@ -202,7 +203,7 @@ leading-relaxed: Adds space between lines for better readability.
 
 max-w-3xl mx-auto: Limits the width of the paragraph and centers it horizontally.
 
-Combined Example:
+**Combined Example:**
 Here’s how you can combine these utilities to create a responsive and balanced layout:
 ```bash
 <div class="p-8 bg-white">
