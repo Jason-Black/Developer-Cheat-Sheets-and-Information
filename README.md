@@ -17,15 +17,15 @@ This repository aims to provide concise and easy-to-use cheat sheets for develop
 
 Here are the available cheat sheets:
 
-- [Markdown Cheat Sheet](Markdown-CheatSheet.md)
-- [Emoji Cheat Sheet](emoji-cheatsheet-2.md)
-- [HTML and CSS in Markdown Cheat Sheet](Markdown-CheatSheet.md)
+- [Markdown Cheat Sheet](cheatsheets/Markdown-CheatSheet.md)
+- [Emoji Cheat Sheet](cheatsheets/emoji-cheatsheet-2.md)
+- [HTML and CSS in Markdown Cheat Sheet](cheatsheets/Markdown-CheatSheet.md)
 - [GSAP](cheatsheets/GSAP.md)
-- [TailwindCSS](tailwind.md)
-- [Flexbox and Grid](flexbox-grid.md)
-- [HTML5](html5.md)
-- [Reuseable Code](commoncode.md)
-- [My Code](mycode.md)
+- [TailwindCSS](cheatsheets/tailwind.md)
+- [Flexbox and Grid](cheatsheets/flexbox-grid.md)
+- [HTML5](cheatsheets/html5.md)
+- [Reuseable Code](cheatsheets/commoncode.md)
+- [My Code](cheatsheets/mycode.md)
 
 Feel free to browse and use these cheat sheets to boost your productivity!
 
