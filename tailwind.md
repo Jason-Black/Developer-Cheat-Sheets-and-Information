@@ -59,7 +59,19 @@ To use Tailwind CSS, apply utility classes directly to your HTML elements.
 ```
 
 ## Responsive Design
+
+# Best Video I have found on Responsive design
+
+<a href="https://www.youtube.com/watch?v=rbSPe1tJowY" target="_blank">
+  <img src="https://img.youtube.com/vi/rbSPe1tJowY/maxresdefault.jpg" alt="Watch the video" width="300"/>
+</a>
+
+
+
+- HTML CODE
 ```html <!-- You can literally design anything with GRID -->
+
+<!-- You can literally design anything with GRID -->
 
 <!-- Equal Sections -->
 
@@ -94,9 +106,52 @@ To use Tailwind CSS, apply utility classes directly to your HTML elements.
 
 <!-- 2 pieces of content that goes 20/80 2x1 on med screens and vertical align on phone -->
 
-<div class="grid gap-4 sm:grid-cols-12 grid-col-2 m-4">
+<!-- <div class="grid gap-4 sm:grid-cols-12 grid-col-2 m-4">
   <div class="bg-blue-400 min-h-[100px] rounded-lg shadow sm:col-span-2"></div>
     <div class="bg-red-400 min-h-[100px] rounded-lg shadow sm:col-span-10"></div>
+   
+</div> -->
+
+<!-- This also works??? 2 pieces of content that goes 20/80 2x1 on med screens and vertical align on phone -->
+
+<!-- <div class="grid gap-4 sm:grid-cols-12  m-4">
+  <div class="bg-blue-400 min-h-[100px] rounded-lg shadow sm:col-span-2"></div>
+    <div class="bg-red-400 min-h-[100px] rounded-lg shadow sm:col-span-10"></div>
+   
+</div> -->
+
+<!-- This also works LOL??? 2 pieces of content that goes 20/80 2x1 on med screens and vertical align on phone -->
+
+<!-- <div class="grid gap-4 sm:grid-cols-12 grid-cols-1 m-4">
+  <div class="bg-blue-400 min-h-[100px] rounded-lg shadow sm:col-span-2"></div>
+    <div class="bg-red-400 min-h-[100px] rounded-lg shadow sm:col-span-10"></div>
+   
+</div> -->
+
+<!-- 3x pieces of content that 'dissappears the colums' as you get smaller and fills up the screen with main content (kinda clunky) -->
+
+<!-- <div class="m-4 grid gap-4 sm:grid-cols-12">
+  <div class="bg-blue-400 min-h-[100px] sm:col-span-2 rounded-lg shadow "></div>
+    <div class="bg-red-400 min-h-[100px] sm:col-span-8 rounded-lg shadow "></div>
+        <div class="bg-purple-400 min-h-[100px] sm:col-span-2 rounded-lg shadow "></div>
+   
+</div> -->
+
+<!-- 3x pieces of content that 'dissappears the colums' as you get smaller and fills up the screen with main content (but where do you put that content later?) This hides the left and right cols on phone, and only displays middle, and on larger screens displays 3x1 10%-80%-10% -->
+
+<div class="m-4 grid gap-4 sm:grid-cols-12">
+  <div class="bg-blue-400 min-h-[100px] sm:col-span-2 rounded-lg shadow sm:block hidden "></div>
+    <div class="bg-red-400 min-h-[100px] sm:col-span-8 rounded-lg shadow "></div>
+        <div class="bg-purple-400 min-h-[100px] sm:col-span-2 rounded-lg shadow sm:block hidden "></div>
+   
+</div>
+
+<!-- 3x pieces of content that 'dissappears the colums' as you get smaller and fills up the screen with main content (but where do you put that content later?) This hides the left and right cols on phone, and only displays middle, and on larger screens displays 3x1 10%-80%-10% this one changes which box is displayed on phone-->
+
+<div class="m-4 grid gap-4 sm:grid-cols-12">
+  <div class="bg-blue-400 min-h-[100px] sm:col-span-2 rounded-lg shadow sm:block hidden "></div>
+    <div class="bg-red-400 min-h-[100px] sm:col-span-8 rounded-lg shadow sm:block hidden "></div>
+        <div class="bg-purple-400 min-h-[100px] sm:col-span-2 rounded-lg shadow  "></div>
    
 </div>
 ```
