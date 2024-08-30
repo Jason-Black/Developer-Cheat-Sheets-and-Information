@@ -1,4 +1,4 @@
-# GSAP Animation Cheat Sheet
+# Tailwind Cheat Sheet
 
 ## Table of Contents
 
