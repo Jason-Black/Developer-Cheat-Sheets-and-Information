@@ -159,6 +159,73 @@ To use Tailwind CSS, apply utility classes directly to your HTML elements.
 
 Responsive design ensures that your web application looks good on all devices, from mobile phones to desktop computers. It involves using flexible layouts, media queries, and responsive units.
 
+# Responsive Typography with Tailwind CSS
+
+This guide will show you how to use Tailwind CSS's new utilities, `text-balance` and `text-pretty`, to create responsive, visually balanced headings and paragraphs. These utilities help improve text readability by distributing words evenly across lines and avoiding orphaned words.
+
+## What is `text-balance`?
+
+The `text-balance` utility in Tailwind CSS ensures that text is evenly distributed across lines, making it look visually balanced. This is particularly useful for headings or any short block of text where line breaks can disrupt the visual flow.
+
+### Example Usage
+
+```html
+<h1 class="text-balance text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-center md:text-left">
+  Creating Visually Balanced and Responsive Headings with Tailwind CSS
+</h1>
+```
+
+text-balance: Ensures that the text is evenly distributed across lines.
+Responsive Text Sizes:
+- text-4xl for small screens.
+- md:text-5xl for medium screens.
+- lg:text-6xl for large screens.
+leading-tight: Reduces line height for a more compact look.
+text-center md:text-left: Centers text on small screens, left-aligns it on medium and larger screens.
+
+### What is text-pretty?
+The text-pretty utility is designed to prevent orphaned words (single words that appear alone on a line) by adjusting how text wraps within an element. This helps create a cleaner and more professional appearance in paragraphs and longer text blocks.
+
+```bash
+<p class="text-pretty text-lg md:text-xl lg:text-2xl leading-relaxed text-gray-700 max-w-3xl mx-auto">
+  Tailwind CSS provides a powerful set of utilities that allow developers to craft responsive, accessible, and visually appealing web designs. With features like `text-balance` and `text-pretty`, creating a polished and professional-looking UI has never been easier.
+</p>
+```
+###
+
+Responsive Text Sizes:
+- text-lg for small screens.
+- md:text-xl for medium screens.
+- lg:text-2xl for large screens.
+
+leading-relaxed: Adds space between lines for better readability.
+
+max-w-3xl mx-auto: Limits the width of the paragraph and centers it horizontally.
+
+Combined Example:
+Here’s how you can combine these utilities to create a responsive and balanced layout:
+```bash
+<div class="p-8 bg-white">
+  <h1 class="text-balance text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-center md:text-left">
+    Creating Visually Balanced and Responsive Headings with Tailwind CSS
+  </h1>
+  <p class="text-pretty text-lg md:text-xl lg:text-2xl leading-relaxed text-gray-700 max-w-3xl mx-auto mt-4">
+    Tailwind CSS provides a powerful set of utilities that allow developers to craft responsive, accessible, and visually appealing web designs. With features like `text-balance` and `text-pretty`, creating a polished and professional-looking UI has never been easier.
+  </p>
+</div>
+```
+- p-8 bg-white: Adds padding and a white background to the container.
+- Responsive and Balanced Text: The h1 and p tags adjust their font sizes based on screen size, ensuring text is well-distributed across lines and looks good at any resolution.
+
+
+## Conclusion
+
+The `text-balance` and `text-pretty` utilities in Tailwind CSS are powerful tools for creating responsive, balanced text layouts. These utilities ensure that your text looks clean and professional on all screen sizes, enhancing both the readability and aesthetic appeal of your web design.
+
+For more details, check out the [official Tailwind CSS documentation](https://tailwindcss.com/docs).
+
+
+
 ### Using Media Tags
 
 Media queries are used to apply different styles for different devices or screen sizes.
