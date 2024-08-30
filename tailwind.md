@@ -59,6 +59,48 @@ To use Tailwind CSS, apply utility classes directly to your HTML elements.
 ```
 
 ## Responsive Design
+```html <!-- You can literally design anything with GRID -->
+
+<!-- Equal Sections -->
+
+<!-- Most common - 2x1 on md screens and vertical align on phone -->
+
+<!-- <div class="grid gap-4 sm:grid-cols-2 m-4">
+  <div class="bg-blue-400 min-h-[100px] rounded-lg shadow"></div>
+    <div class="bg-red-400 min-h-[100px] rounded-lg shadow"></div>
+    
+
+</div> -->
+
+<!-- 3 pieces of content that goes 3x1 on md screens and vertical align on phone -->
+
+<!-- <div class="grid gap-4 sm:grid-cols-3 m-4">
+  <div class="bg-blue-400 min-h-[100px] rounded-lg shadow"></div>
+    <div class="bg-red-400 min-h-[100px] rounded-lg shadow"></div>
+      <div class="bg-green-400 min-h-[100px] rounded-lg shadow"></div>
+</div> -->
+
+<!-- 4 pieces of content that gose 2x2 on md screens and vertical aligh on phone -->
+
+<!-- <div class="grid gap-4 sm:grid-cols-2 m-4">
+  <div class="bg-blue-400 min-h-[100px] rounded-lg shadow"></div>
+    <div class="bg-red-400 min-h-[100px] rounded-lg shadow"></div>
+      <div class="bg-green-400 min-h-[100px] rounded-lg shadow"></div>
+      <div class="bg-orange-400 min-h-[100px] rounded-lg shadow"></div>
+</div> -->
+
+<!-- Non-Equal Sections -->
+
+
+<!-- 2 pieces of content that goes 20/80 2x1 on med screens and vertical align on phone -->
+
+<div class="grid gap-4 sm:grid-cols-12 grid-col-2 m-4">
+  <div class="bg-blue-400 min-h-[100px] rounded-lg shadow sm:col-span-2"></div>
+    <div class="bg-red-400 min-h-[100px] rounded-lg shadow sm:col-span-10"></div>
+   
+</div>
+```
+
 
 Responsive design ensures that your web application looks good on all devices, from mobile phones to desktop computers. It involves using flexible layouts, media queries, and responsive units.
 
